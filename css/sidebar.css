@@ -2,6 +2,40 @@
 
 
 
-h2 {
-    font-family: 'PlaywriteCU';
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: #1a1a1a;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 25px;
+    height: 93%;
+    width: 65px;
+    border-right: 1.5px solid #1a1a1a2c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+} 
+.top h2 {
+    font-family: 'PlaywriteCU', sans-serif;
+    margin: 0;
+    font-size: 1.3rem;
+} 
+.middle {
+    gap: 10px;
+}
+.middle, .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}  
+.middle i, .bottom i {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    cursor: pointer;
 }
