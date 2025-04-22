@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'PlaywriteRO';
+    src: url('../asset/fonts/PlaywriteRO-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'PlaywriteCU';
+    src: url('../asset/fonts/PlaywriteCU-VariableFont_wght.ttf') format('truetype');
+}
